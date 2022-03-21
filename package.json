@@ -1,0 +1,30 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "nodemon index.js"
+  },
+  "author": "Maulana",
+  "license": "ISC",
+  "dependencies": {
+    "@datalust/winston-seq": "^1.0.2",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "winston": "^3.6.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indra08/loggin-serilog.git"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "bugs": {
+    "url": "https://github.com/indra08/loggin-serilog/issues"
+  },
+  "homepage": "https://github.com/indra08/loggin-serilog#readme",
+  "description": ""
+}
